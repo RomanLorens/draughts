@@ -11,8 +11,8 @@ table {
 }
 
 .circle {
-	width: 40px;
-	height: 40px;
+	width: 36px;
+	height: 36px;
 }
 
 .black {
@@ -32,10 +32,23 @@ table {
 }
 
 #nextPawn img {
-	width: 40px;
-	height: 40px;
+	width: 36px;
+	height: 36px;
 }
 
 #pawn {
 	text-align: center;
+}
+
+#pawn span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#content {
+	margin: -20px;
+}
+
+#killed_red, #killed_blue {
+	height: 40px;
 }

@@ -45,8 +45,6 @@ define(['jquery'], function($) {
 
 	function killOrMove() {
 		$(".black").dblclick(function() {
-			console.log('dblclick ...')
-			console.log(moves)
 			var y = parseInt(current[0]);
 			var x = parseInt(current[1]);
 
